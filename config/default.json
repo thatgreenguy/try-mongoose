@@ -1,0 +1,13 @@
+{
+  "db": {
+    "uri": "mongodb://localhost/",
+    "connectionOptions": {
+      "autoIndex": "true",
+      "reconnectTries": "Number.MAX_VALUE",
+      "reconnectInterval": "500",
+      "poolSize": "10",
+      "bufferMaxEntries": "0"
+    },
+    "retryConnectInterval": "10000"
+  }
+}
